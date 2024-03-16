@@ -9,7 +9,7 @@ function About() {
       <div className='flex gap-5 w-full border-t-[1px] pt-10 mt-16 border-[#a8b478]'>
         <div className='w-1/2'>
             <h1 className='text-5xl ml-[4vw]'>Our approach:</h1>
-            <button className='flex gap-8 ml-[4vw] items-center px-10 py-4 mt-5 bg-zinc-900 rounded-full text-white uppercase'>Read more
+            <button className='flex gap-8 ml-[4vw] items-center px-10 py-4 mt-5 bg-zinc-900 rounded-full text-white uppercase hover:bg-zinc-700'>Read more
             <div className='w-2 h-2 bg-zinc-100 rounded-full'></div>
             </button>
         </div>

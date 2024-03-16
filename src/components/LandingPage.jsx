@@ -8,7 +8,7 @@ function LandingPage() {
       <div className="textstructure mt-40 px-20">
         {["We create", "Eye Opening", "Presentations"].map((item, index) => {
           return (
-            <div className="masker ">
+            <div key={index} className="masker ">
               <div className="w-fit flex items-center">
                 {index === 1 && (
                   <motion.div
@@ -46,7 +46,7 @@ function LandingPage() {
           "For public and private companies",
           "From the first pitch to IPO",
         ].map((item, index) => (
-          <p className="text-md font-light tracking-tight leading-none">
+          <p key={index} className="text-md font-light tracking-tight leading-none">
             {item}
           </p>
         ))}
